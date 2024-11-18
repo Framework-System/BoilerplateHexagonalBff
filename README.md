@@ -1,4 +1,4 @@
-# Exemplo - Hexagonal BFF 
+# Exemplo - Hexagonal BFF (Node.js)
 
 ## Descrição
 
