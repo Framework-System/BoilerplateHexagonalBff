@@ -80,10 +80,8 @@ pnpm start
 
 5. Acesse a documentação da API em http://localhost:9876/swagger.
 
-Contribuição
-Convidamos todos a colaborar com a evolução deste projeto. Sinta-se à vontade para abrir issues, enviar pull requests ou sugerir melhorias. Juntos podemos construir uma base sólida para projetos futuros!
+## Contribuição
 
-Licença
-Este projeto está licenciado sob a licença ISC. Veja o arquivo LICENSE para mais detalhes.
+Convidamos todos a colaborar com a evolução deste projeto. Sinta-se à vontade para abrir issues, enviar pull requests ou sugerir melhorias. Juntos podemos construir uma base sólida para projetos futuros!
 
 Feito por Framework Digital. 
