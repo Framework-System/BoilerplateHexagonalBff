@@ -62,20 +62,20 @@ src/
 ## Como Executar
 
 1. Clone o repositório:
-   ```sh
-   git clone https://github.com/seu-usuario/hexagonal-example-bff.git
-   cd hexagonal-example-bff
-   ```
+```sh
+git clone https://github.com/seu-usuario/hexagonal-example-bff.git
+cd hexagonal-example-bff
+```
 
 2. Instale as dependências:
 ```sh
-npm install
+pnpm install
 ```
 
 3. Configure as variáveis de ambiente no arquivo .env.
 4. Inicie o servidor:
 ```sh
-npm start
+pnpm start
 ```
 
 5. Acesse a documentação da API em http://localhost:9876/swagger.

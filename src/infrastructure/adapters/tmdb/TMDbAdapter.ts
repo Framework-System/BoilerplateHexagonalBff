@@ -1,6 +1,6 @@
 import axios from 'axios';
 import NodeCache from 'node-cache';
-import { Movie } from '../../../domain/models/Movie';
+import { Movie } from '../../../domain/models/movie/Movie';
 import tmdbConfig from './tmdbConfig';
 
 export class TMDbAdapter {

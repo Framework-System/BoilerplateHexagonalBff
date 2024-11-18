@@ -1,5 +1,5 @@
-import { Movie } from '../../domain/models/Movie';
-import { TMDbAdapter } from '../../infrastructure/adapters/tmdb/TMDbAdapter';
+import { Movie } from '../../../domain/models/movie/Movie';
+import { TMDbAdapter } from '../../../infrastructure/adapters/tmdb/TMDbAdapter';
 
 export class MovieService {
   private readonly movieRepository: TMDbAdapter;

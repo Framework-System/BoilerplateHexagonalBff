@@ -1,7 +1,7 @@
-import { MovieService } from '../../../application/services/MovieService';
+import { MovieService } from '../../../application/services/movie/MovieService';
 
 jest.mock('../../../infrastructure/adapters/tmdb/TMDbAdapter', () => {
-  const { Movie } = require('../../../domain/models/Movie');
+  const { Movie } = require('../../../domain/models/movie/Movie');
   return {
     TMDbAdapter: jest.fn().mockImplementation(() => {
       return {
