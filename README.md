@@ -1,4 +1,4 @@
-# Hexagonal BFF Example
+# Exemplo - Hexagonal BFF 
 
 ## Descrição
 
@@ -19,6 +19,7 @@ Este exemplo de BFF se propõe a:
 ## Arquitetura
 
 A arquitetura do projeto é organizada da seguinte forma:
+```sh
 src/
     application/
         services/
@@ -42,7 +43,7 @@ src/
         application/
             services/
                 MovieService.test.ts
-
+```
 
 - **application**: Contém os serviços da aplicação, responsáveis pela lógica de negócio.
 - **domain**: Contém os modelos de domínio.
@@ -64,15 +65,18 @@ src/
    ```sh
    git clone https://github.com/seu-usuario/hexagonal-example-bff.git
    cd hexagonal-example-bff
+   ```
 
 2. Instale as dependências:
-
+```sh
 npm install
+```
 
 3. Configure as variáveis de ambiente no arquivo .env.
 4. Inicie o servidor:
-
+```sh
 npm start
+```
 
 5. Acesse a documentação da API em http://localhost:9876/swagger.
 
@@ -82,4 +86,4 @@ Convidamos todos a colaborar com a evolução deste projeto. Sinta-se à vontade
 Licença
 Este projeto está licenciado sob a licença ISC. Veja o arquivo LICENSE para mais detalhes.
 
-Feito por Framework Digital. ```
+Feito por Framework Digital. 
