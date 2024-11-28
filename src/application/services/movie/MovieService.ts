@@ -1,4 +1,4 @@
-import { Movie } from '../../../domain/models/movie/Movie';
+import type { Movie } from '../../../domain/models/movie/Movie';
 import { TMDbAdapter } from '../../../infrastructure/adapters/tmdb/TMDbAdapter';
 
 export class MovieService {
